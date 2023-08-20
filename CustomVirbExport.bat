@@ -1,4 +1,17 @@
 @echo off
+
+REM Usage:
+REM 1. Change these lines in the script to the desired output frame size and framerate.
+
+REM set HRes=5312
+REM set VRes=2988
+REM set FRate=30000
+
+REM 2. Use Garmin Virb to Export at "5.7k".
+REM 3. Click "Cancel" to cancel the export.
+REM 4. Run the script to insert the custom framesize/framerate and process.
+REM 5. Task Manager is automatically launched so you can monitor CPU usage until the export is finished.
+
 setlocal
 
 set HRes=5312
